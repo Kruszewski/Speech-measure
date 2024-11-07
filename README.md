@@ -29,7 +29,7 @@ To install MyTool, follow these steps:
 3. Make the installer script executable:
 
    ```bash
-   chmod +x setup.sh
+   chmod +x speech-measure/setup.sh
    ```
 
 4. Run the installer script:
