@@ -10,9 +10,9 @@
    fi
 
    # Copy the script to the installation directory
-   cp main.py "$INSTALL_DIR/mytool"
+   cp main.py "$INSTALL_DIR/speech-measure"
 
    # Make the script executable
-   chmod +x "$INSTALL_DIR/mytool"
+   chmod +x "$INSTALL_DIR/speech-measure"
 
-   echo "mytool installed successfully. You can now use it like any other command."
+   echo "speech-measure installed successfully. You can now use it like any other command."

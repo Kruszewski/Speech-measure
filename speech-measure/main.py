@@ -27,7 +27,7 @@ def measure_length_in_seconds(file_path):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Process some integers.",
+        description="A command-line utility for measuring text length in words, characters, and estimated speech duration.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=textwrap.dedent("""Examples:
                             sm -l speech.txt # Measures speech length in words
