@@ -12,30 +12,36 @@ MyTool is a simple command-line utility for processing text files. It can measur
 
 To install MyTool, follow these steps:
 
-1. Clone the repository or download the files to your local machine.
+1. Clone the repository or download the files to your local machine:
+
+   ```bash
+   git clone https://github.com/Kruszewski/speech-measure.git
+   ```
+
+   Or download and extract the ZIP file from the repository's releases page.
 
 2. Navigate to the directory containing the files:
 
    ```bash
-   cd /usr/local/bin
+   cd speech-measure
    ```
 
 3. Make the installer script executable:
 
    ```bash
-   chmod +x install_mytool.sh
+   chmod +x setup.sh
    ```
 
 4. Run the installer script:
 
    ```bash
-   ./install_mytool.sh
+   ./setup.sh
    ```
 
    If you encounter permission issues, use:
 
    ```bash
-   sudo ./install_mytool.sh
+   sudo ./setup.sh
    ```
 
 ## Usage
