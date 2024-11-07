@@ -1,3 +1,5 @@
+##THIS IS VERSION ALPHA##
+
 # MyTool
 
 MyTool is a simple command-line utility for processing text files. It can measure the length of a text in words, count characters, and estimate the length of a speech in seconds based on an average speaking rate.
